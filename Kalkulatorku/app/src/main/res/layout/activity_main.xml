@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kalkulatorku"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/angkaPertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Angka Pertama"
+        android:inputType="number"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/angkaKedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Angka Kedua"
+        android:inputType="number"
+        android:layout_marginTop="90dp"
+        />
+    
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="@string/btnTambah"
+        />
+
+    <Button
+        android:id="@+id/btnKurang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="@string/btnKurang"
+        android:layout_marginStart="95dp"
+        />
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="@string/btnKali"
+        android:layout_marginStart="190dp"
+        />
+
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="@string/btnBagi"
+        android:layout_marginStart="285dp"
+        />
+
+    <Button
+        android:id="@+id/btnBersihkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bersihkan"
+        android:layout_marginTop="190dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="@string/txtHasil"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/Hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textSize="40sp"
+        />
+
+  </RelativeLayout>

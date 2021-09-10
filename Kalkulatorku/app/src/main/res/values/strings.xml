@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kalkulatorku</string>
+    <string name="btnTambah">+</string>
+    <string name="btnKurang">-</string>
+    <string name="btnKali">X</string>
+    <string name="btnBagi">/</string>
+    <string name="txtHasil">Hasil</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_nama"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/TxtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lbl_umur"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/TxtUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lbl_Politeknik"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/TxtPoliteknik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:id="@+id/btnTampil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:text="@string/btn_tampil_nama"
+        android:layout_marginTop="10dp"
+        android:onClick="tampilNama"
+        />
+
+    <TextView
+        android:id="@+id/tampilNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text=""
+        />
+
+
+</LinearLayout>
